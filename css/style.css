@@ -66,27 +66,10 @@ html{
     padding-bottom: 30px;
 }
 
-.btt-ready{
-    background-color:rgb(255, 228, 0) ;
-    color: rgb(17, 17, 17);
-    font-weight:400;
-    border-radius:10px;
-    margin: 30px 0 0px 0 ;
-    width:300px;
-    height:80px;
-    font-size:35px;
-    cursor: pointer;
-    transition: ease-in-out 300ms;
+.video-propaganda video{
+    margin-bottom:50px;
 }
 
-.btt-ready:hover{
-    transform: scale(1.2);
-}
-
-
-.space{
-    height:50px;
-}
 /*conteudo da div com delay*/
 
 .esconder{
@@ -1109,6 +1092,31 @@ html{
      width:76rem;
 }
 
+    @media(max-width:1080px) {
+        #video_propaganda{
+            width: 800px;
+        }}
+
+    @media(max-width:880px) {
+        #video_propaganda{
+            width: 600px;
+        }
+
+        .video-propaganda h2{
+            font-size:29px;
+        }}
+
+        @media(max-width:600px) {
+            #video_propaganda{
+                width: 400px;
+            }
+    
+            .video-propaganda h2{
+                font-size:23px;
+            }
+        }
+
+
  @media (max-width:450px){
      html{
          font-size: 62.5%;
@@ -1346,7 +1354,22 @@ html{
          top:0.5rem;
     }
 }
+
+
+@media (max-width:400px) {
+    #video_propaganda{
+        width: 300px;
+    }
+
+    .video-propaganda h2{
+        font-size:20px;
+    }
+}
+
+
  @media (max-width:375px){
+
+
      .estrelas-produto{
          max-width:35.9rem;
          gap:1.2rem;
