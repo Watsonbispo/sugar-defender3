@@ -1,4 +1,5 @@
 
+
 /*delay da pagina*/  
 const video = document.getElementById('video_propaganda');
 const mostrarDiv = document.getElementById('esconder_aparecer');
